@@ -174,6 +174,7 @@ color:var(--ternary-color);
   display: flex;
   align-items: center;
   z-index: 997;
+  overflow: hidden ! important;
   
 }
 
@@ -189,6 +190,7 @@ color:var(--ternary-color);
   font-weight: 800;
   font-family: "Poppins", sans-serif;
 letter-spacing: 9px;
+margin-top:5px;
 
 }
 

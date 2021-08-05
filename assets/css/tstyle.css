@@ -2,7 +2,7 @@
 
 :root{
   --primary-color: #000;
-  --secondary-color:#3F72AF;
+  --secondary-color: #860f3d;
   --ternary-color: #fff;
   
   --forth-color:cyan;
@@ -13,7 +13,9 @@
   }
   .light-theme{
   --primary-color: #e6e6e6;
-  --secondary-color: #3F72AF;
+  --secondary-color: #301B3F;;
+   /* #7D0633; #860f3d */
+   /* #3F72AF; */
   --ternary-color: #000;
   --forth-color:#ff3355;
   --fifth-color:#e5edfe;

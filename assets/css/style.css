@@ -174,7 +174,6 @@ color:var(--ternary-color);
   display: flex;
   align-items: center;
   z-index: 997;
-  overflow: hidden ! important;
   
 }
 
@@ -190,8 +189,6 @@ color:var(--ternary-color);
   font-weight: 800;
   font-family: "Poppins", sans-serif;
 letter-spacing: 9px;
-margin-top:5px;
-
 }
 
 #header h1 a {
@@ -203,7 +200,7 @@ margin-top:5px;
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: var(--ternary-color);
+  color: white;
 
 }
 
@@ -226,13 +223,12 @@ margin-top:5px;
 
 #header .social-links  a {
  font-size: 16px;
-display: flex;
+  display: flex;
  justify-content: center;
  align-items: center;
  background:var(--primary-color);
 color:var(--ternary-color);
  line-height: 1;
-
 margin-right: 8px;
   border-radius: 50%;
  width: 60px;

@@ -1,10 +1,10 @@
 
 
 :root{
---primary-color: #000;
---secondary-color:#3F72AF;
---ternary-color: #fff;
-
+  --primary-color: #000;
+  --secondary-color: #860f3d;
+  --ternary-color: #fff;
+  
 --forth-color:cyan;
 --fifth-color:rgba(0,0,0,0.9);
 --sixth-color:orange;
@@ -14,9 +14,9 @@
 --tenth-color:white;
 }
 .light-theme{
---primary-color: #e6e6e6;
---secondary-color: #52057B;
---ternary-color: #000;
+  --primary-color: #e6e6e6;
+  --secondary-color: #301B3F;;
+ --ternary-color: #000;
 --swap-ternary:#fff;
 --forth-color:#ff3355;
 --fifth-color:#e5edfe;
@@ -779,14 +779,7 @@ svg{
 #js,#jsf{
   animation: handcm 1s infinite ease-out alternate ;
 }
-@keyframes handcm {
-  0% {
-    transform: translateX(30px);
-  }
-  100% {
-    transform: translateY(-20px);
-  }
-}
+
 
 #cssf{
   animation: cssf 1s infinite ease-out alternate ;
@@ -867,56 +860,9 @@ color: var(--ternary-color);
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
-  color: var(--ternary-color);
+  color: white;
 }
  
-/* 
-.card-body{
-  color : white;
-  background: black;
-  font-size : 15px;
-}
-#collapse {
-  color:var(--ternary-color);
-  background-color: var(--primary-color);
-}
-.card-header {
-  color:var(--ternary-color);
-  background-color: var(--primary-color);
-}
-.collapsed{
-  color:white;
-  font-size: 20px;
-}
-
-.collapsed:hover{
-  color:white;
-  font-size: 20px;
-}
-
-.certi{
-  color:rgba(255, 255, 255, 0.74);
-  font-size:10px;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--achievement-->
 
 .achievement .icon-box {
   text-align: center;

@@ -11,10 +11,11 @@
 --seventh-color:#ffc966;
 --eighth-color:#dd99ff;
 --ninth-color: #0066ff;
+--tenth-color:white;
 }
 .light-theme{
 --primary-color: #e6e6e6;
---secondary-color: #CCA8E9;
+--secondary-color: #52057B;
 --ternary-color: #000;
 --swap-ternary:#fff;
 --forth-color:#ff3355;
@@ -23,6 +24,7 @@
 --seventh:color: #bb33ff;
 --eighth-color:#ffc966;
 --ninth-color: #9A00E6;
+--tenth-color :#b8d8ff;
 }
 body {
   font-family: "Open Sans", sans-serif ; 
@@ -217,6 +219,7 @@ letter-spacing: 9px;
 #header .social-links {
   margin-top: 40px;
   display: flex;
+
 }
 
 #header .social-links  a {
@@ -227,6 +230,7 @@ display: flex;
  background:var(--primary-color);
 color:var(--ternary-color);
  line-height: 1;
+
 margin-right: 8px;
   border-radius: 50%;
  width: 60px;
@@ -682,7 +686,7 @@ color: var(--ternary-color);
 .services .icon-box {
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 140px;
+  padding-bottom: 154px;
   padding-left: 50px;
   padding-right: 50px;
   transition: all ease-in-out 0.3s;
@@ -1014,7 +1018,7 @@ color: var(--ternary-color);
   color: #444444;
   padding: 20px;
   width: 100%;
-  background: var(--ternary-color);
+  background: var(--tenth-color);
 }
 
 .contact .info-box i.bx {
@@ -1028,14 +1032,14 @@ color: var(--secondary-color);
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: var(--primary-color);
+  color: black;
   font-weight: 700;
   margin: 10px 0 8px 68px;
 }
 
 .contact .info-box p {
   padding: 0;
-color: var(--secondary-color);
+color: black;
   line-height: 24px;
   font-size: 14px;
   margin: 0 0 0 68px;
